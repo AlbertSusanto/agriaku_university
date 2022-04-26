@@ -53,3 +53,5 @@ services:
       - "5432:5432"
     environment: 
       - POSTGRES_PASSWORD=test
+    volumes:
+      - ./destination_data:/opt/sql

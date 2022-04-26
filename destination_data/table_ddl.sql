@@ -4,6 +4,6 @@ CREATE TABLE weekly_course_attendance(
     academic_year INT,
     course_id INT,
     semester INT,
-    course_days VARCHAR,
+    course_weekly_days VARCHAR,
     weekly_attendance_percentage INT
 )
